@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body,
 html {
     text-align: right;
@@ -12,7 +13,7 @@ html {
 /* top menu holder css here */
 
 #menuholder {
-    margin: 0% 2% 0% 0%;
+    margin: 20px 0px 10px 0px;
     text-align: center;
 }
 
@@ -84,11 +85,15 @@ a:hover:before {
 
 /*======================search bar css */
 
+.inputscrch{
+    display: flex;
+    margin-top: 50px;
+}
+
 #srch {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   
+    /* transform: translate(-50%, -50%); */
+    margin: auto;
     height: 1.5vw;
     width: 45vw;
     background-color: white;
@@ -241,43 +246,39 @@ a:hover:before {
 
     .menu{
 
-        font-size: 25px;
+        font-size: 19px;
     }
 
-    .fa-picture-o{
-
-        color: rgb(255, 123, 0);
     
+#myimg{
+
+    height: 190px;
+    width: auto;
+    border-radius: 50%;
+    border: solid 10px white;
+    box-shadow: 0px 0px 20px gray;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+    .title span{
+
+        font-size: 27px;
+        font-weight: bold;
     }
+
+    
 
     #srch{
 
         height: 5vh;
         width: 70vw;
-        top: 77%;
     }
 
     #srch[type=text] {
         font-size: 3vw;
     }
 }
-
-
-
-
-
-
-/* ---------- End make the codepen look nice ---------- */
-
-/* ---------- Begin .rotating-border ---------- */
-
-
-
-
-
-
-/* ---------- End customizing .rotating-border ---------- */
-
 
 
 
