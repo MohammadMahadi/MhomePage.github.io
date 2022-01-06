@@ -19,20 +19,20 @@ const imgurl = "https://www.google.com/search?tbm=isch&q=";
 const yturl = "https://www.youtube.com/results?search_query=";
 let modeObj;
 
-document.addEventListener('DOMContentLoaded',init);
+document.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    modeObj = new Mode('web', 'Google', '4px #efd10e solid',srchurl);
+    modeObj = new Mode('web', 'Google', '4px rgb(11, 182, 235) solid', srchurl);
     modeObj.setup();
 }
 
 function ytmode() {
-    modeObj = new Mode('yt', 'YouTube', '4px #ed4343 solid',yturl);
+    modeObj = new Mode('yt', 'YouTube', '4px #ed4343 solid', yturl);
     modeObj.setup();
 }
 
 function imgmode() {
-    modeObj = new Mode('img', 'Google Images', '4px #43c1ef solid',imgurl);
+    modeObj = new Mode('img', 'Google Images', '4px #db7093 solid', imgurl);
     modeObj.setup();
 }
 
