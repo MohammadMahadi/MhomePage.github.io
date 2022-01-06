@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<meta name="description" content="Search on google, youtube with a new parsonal custom good looking page!" />
+	<link rel="stylesheet" type="text/css" href="CSS/home.css">
+	<link rel="stylesheet" href="/fontawsome/css/all.min.css">
+	<link rel="stylesheet" href="/fontawsome/css/fontawesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="webpage">
+		
+       <!-- top menu holder -->
+
+		<div id="menuholder">
+			<a class="menu" href="#0" onclick="init();"><span class="fas fa-globe"></span> Web</a>
+			<a class="menu" href="#0" onclick="imgmode();"><span class="fas fa-image"></span> Images</a>
+			<a class="menu" href="#0" onclick="ytmode();"><span class="fab fa-youtube"></span> Youtube</a>
+			<a class="menu desktop-menu" href="https://www.google.com/maps"><span class="fas fa-map-marker-alt"></span> Maps</a>
+			<a class="menu desktop-menu" href="https://drive.google.com"><span class="fas fa-upload"></span> Drive</a>
+			<a class="menu desktop-menu" href="https://www.google.com/calendar"><span class=" fas fa-calendar"></span> Calendar</a>
+			<a class="menu desktop-menu" href="https://mail.google.com"><span class="fas fa-envelope"></span> Gmail</a>
+			<a class="menu desktop-menu" href="https://play.google.com/store"><span class="fas fa-play"></span> Play Store</a>
+			<a class="menu desktop-menu" href="https://myaccount.google.com/"><span class="fas fa-user"></span> Account</a>
+		</div>
+<hr>
+
+        <!-- search bar top profile img  -->
+		<div class="img">
+			<img src="/Images/web-developer.jpg" id="myimg" alt="my photo">
+		</div>
+
+		 <!-- profile title multy color -->
+
+		<div class="title">
+			
+			<span style="color:#4282EF">M</span>
+			<span style="color:#E34033">o</span>
+			<span style="color:#F3B706">h</span>
+			<span style="color:#4282EF">a</span>
+			<span style="color:#32A352">m</span>
+			<span style="color:#E34033">m</span>
+			<span style="color:#4282EF">a</span>
+			<span id="name1" style="color:#E34033">d</span>
+
+			<span style="color:#4282EF">M</span>
+			<span style="color:#E34033">a</span>
+			<span style="color:#F3B706">h</span>
+			<span style="color:#4282EF">a</span>
+			<span style="color:#32A352">d</span>
+			<span style="color:#E34033">i</span>
+			
+		</div>
+         
+		<!-- search bar  -->
+		<input id="srch" name="searchbox" type="text" autocomplete="off" maxlength="255"
+			onkeydown="return openurl(event);" autofocus />
+	</div>
+
+	<script src="JS/control.js"></script>
+
+</body>
+
+</html>
